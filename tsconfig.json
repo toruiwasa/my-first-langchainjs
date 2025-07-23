@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node24",
+  "compileOptions": {
+    "outDir": "./dist",
+    "rootDIr": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true
+  },
+  "include": ["./src/**/*.ts"]
+}

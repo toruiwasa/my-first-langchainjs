@@ -1,0 +1,45 @@
+{
+  "name": "my-first-langchainjs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --env-file=.env src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@tsconfig/node24": "^24.0.1",
+    "@types/node": "^24.0.15",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.3",
+    "turbo": "^2.5.5",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.37.0"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.8",
+    "@langchain/aws": "^0.1.12",
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.66",
+    "langchain": "^0.3.30",
+    "pdf-parse": "^1.1.1"
+  },
+  "resolutions": {
+    "@langchain/core": "^0.3.66"
+  },
+  "overrides": {
+    "@langchain/core": "^0.3.66"
+  },
+  "pnpm": {
+    "overrides": {
+      "@langchain/core": "^0.3.66"
+    }
+  }
+}
